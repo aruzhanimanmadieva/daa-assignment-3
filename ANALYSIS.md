@@ -357,9 +357,7 @@ The recorded `tests/my_cases.jsonl` run produced the following 14 outputs:
 |   13 | DAG shortest paths | Distances `[0,2,null,null]`; unreachable vertices retain `null`.    |
 |   14 | Ping               | `{"status":"ready"}`.                                               |
 
-For results that are not unique, correctness should be checked semantically. For example, different minimum spanning forests can have different edge IDs but the same optimal cost and component count.
 
----
 
 ## 11. Test Results
 
